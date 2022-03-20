@@ -1,0 +1,46 @@
+/* phần dùng chung */
+:root{
+--white-color:white!important;
+--black-color:black!important;
+--text-color:#333!important;
+}
+*{
+    box-sizing: inherit;
+}
+.html{
+font-size: 62.5%;
+line-height: 1.6rem;
+font-family: 'Roboto','Segoe UI',  sans-serif;
+box-sizing: border-box;
+}
+.body{
+    margin: 0;
+}
+/* độ dài 1200px nhỏ hơn 1200 hiển thị 100% tự căn margin */
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+ 
+ 
+
+
+/* phần dùng chung */
+/* Animation */
+
+    @keyframes FadeIn {
+    from{
+opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    }
+

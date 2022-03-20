@@ -1,0 +1,6 @@
+
+IfModule mod_headers.c
+  FilesMatch .(ttfttcotfeotwoffwoff2font.csscssjs)$
+    Header set Access-Control-Allow-Origin 
+  FilesMatch
+IfModule

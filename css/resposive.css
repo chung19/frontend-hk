@@ -1,0 +1,109 @@
+@media (max-width: 574px) {
+    /* serviceLists */
+ .main-serviceList  .col-12 {
+    margin-top: 880px;
+margin-left: 18px;
+     width:  100%;
+    flex: 0 0 auto;
+    padding-bottom: 300px;
+   
+  }
+  .main-serviceList .box-content-serviceList 
+  {
+   min-height: 2500px;
+   padding-right :5px;
+  }
+  .main-serviceList     .box-serviceList2
+  {
+    padding: bottom 450px;
+
+
+  }
+
+  
+  /*serviceListsend  */
+/* partners */
+ .text-description-head-partner {
+    margin-top: -2px;
+    font-size: 14px;
+  }
+ .text-heading-heading-partner{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--font-family1);
+  margin-top: 16px;
+  }
+ .text-content-head-partner {
+    text-align: center;
+    top: 15px;
+    font-size: 1px;
+  }
+.item-customer-partner {
+    min-height: 700px;
+  }
+  .border-item1,
+  .border-item2,
+  .border-item3,
+  .border-item4,
+  .border-item5,
+  .border-item6,
+  .border-item7,
+  .border-item8
+   {
+    border:1px solid #d9d9d9;
+  }
+
+  #main .col-sm-12 ,.col-12{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #main .col-12-padding {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 2px;
+  }
+  .box-carousel-partner
+  {
+   border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* .text-content-head-partner{
+
+    } */
+
+  }
+  @media (min-width:539) and (max-width: 1022px ) 
+  {
+    
+      .border-item1,
+      .border-item2,
+      .border-item3,
+      .border-item4,
+      .border-item5,
+      .border-item6,
+      .border-item7,
+      .border-item8  {
+     border-radius:0px;
+     border: 0px  #d9d9d9;
+      }
+  }
+  /* full size */
+   @media (max-width: 1023px ) and (min-width: 573px)  
+  {
+    .border-item1,
+    .border-item2,
+    .border-item3,
+    .border-item4,
+    .border-item5,
+    .border-item6,
+    .border-item7,
+    .border-item8  {
+   border-radius:0px;
+   border: 0px  #d9d9d9;
+    }
+   
+  } 
+    /* full size */
